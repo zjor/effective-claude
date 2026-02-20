@@ -8,5 +8,12 @@
   "homepage": "https://github.com/zjor/effective-claude/tree/master/file-indexer",
   "repository": "https://github.com/zjor/effective-claude",
   "license": "MIT",
-  "keywords": ["indexing", "files", "summary", "productivity", "inbox", "catalog"]
+  "keywords": ["indexing", "files", "summary", "productivity", "inbox", "catalog"],
+  "commands": [
+    {
+      "name": "index-file",
+      "description": "Index a file by generating a summary in .index/<filename>.md and appending a snippet to CLAUDE.md",
+      "argumentHint": "[filepath] [destination]"
+    }
+  ]
 }
