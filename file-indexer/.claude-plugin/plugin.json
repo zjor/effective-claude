@@ -1,0 +1,12 @@
+{
+  "name": "file-indexer",
+  "description": "Indexes files by generating AI summaries and maintaining a lightweight catalog. Creates .index/<filename>.md summaries and appends snippets to CLAUDE.md. Supports moving files out of an Inbox folder before indexing.",
+  "version": "1.0.0",
+  "author": {
+    "name": "zjor"
+  },
+  "homepage": "https://github.com/zjor/effective-claude/tree/master/file-indexer",
+  "repository": "https://github.com/zjor/effective-claude",
+  "license": "MIT",
+  "keywords": ["indexing", "files", "summary", "productivity", "inbox", "catalog"]
+}

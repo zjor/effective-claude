@@ -1,0 +1,21 @@
+{
+  "name": "effective-claude",
+  "owner": {
+    "name": "zjor"
+  },
+  "metadata": {
+    "description": "A personal collection of Claude Code plugins for productivity — slash commands, skills, and agents."
+  },
+  "plugins": [
+    {
+      "name": "file-indexer",
+      "source": "./file-indexer",
+      "description": "Indexes files by generating AI summaries and maintaining a lightweight catalog alongside your files. Supports Inbox-based filing workflows.",
+      "version": "1.0.0",
+      "author": {
+        "name": "zjor"
+      },
+      "keywords": ["indexing", "files", "summary", "productivity", "inbox", "catalog"]
+    }
+  ]
+}
